@@ -1,4 +1,9 @@
 body {
     background-color: beige;
   }
-  
+
+nav {
+    background-color: lightblue;
+    text-align: center;
+  }
+
