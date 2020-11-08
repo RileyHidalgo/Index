@@ -8,8 +8,8 @@ header {
     justify-content: center;
     
   }
-  .head1{
-      margin-right: 20px;
+    .head1{
+       margin-right: 20px;
   }
 
 .h1 {
@@ -33,4 +33,54 @@ main > div{
 .three{
     display: grid;
     grid-template-columns: 3fr 4fr;
+}
+
+@media screen and (max-width:600px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 -5px;
+        
+    
+    }
+        .head1{
+            margin: 0 5px
+        }
+        .head2{
+            margin: 0 5px
+        }
+        
+    
+
+    
+    .one{
+        display: flex;
+        flex-direction: column;
+
+        border-bottom: 2px solid lightgray;
+    }
+        .subone{
+            order: 1;
+        }
+        .subtwo{
+            order: 3;
+        }
+        .subthree{
+            order: 2;
+        }
+    .two{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid lightgray;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 3fr 4fr;
+    }
+
+
+
+
 }
