@@ -3,20 +3,34 @@ body {
   }
 
 header {
+    display: flex;
     background-color: lightblue;
-    text-align: center;
+    justify-content: center;
+    
+  }
+  .head1{
+      margin-right: 20px;
   }
 
 .h1 {
   font-family: 'Montserrat', sans-serif;
   
 }
-/* main{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    
 
-} */
-div .one{
+main > div{
+    margin-bottom: 70px;
+}
+.one{
     display: grid;
+    grid-template-columns: 3fr 4fr;
+    border-bottom: 2px solid lightgray;
+}
+.two{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    border-bottom: 2px solid lightgray;
+}
+.three{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
 }
