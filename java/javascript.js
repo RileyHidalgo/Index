@@ -46,7 +46,7 @@ function findCourse(courseList){
     let course = prompt("Enter four digit course number", );
     while (course.length != 4 || (isNaN(course))) {
         course = prompt("Please re-enter a correct course number" , );
-        
+
     let courseExist = false;
 
     for(let courseitem of courseList){
@@ -54,6 +54,9 @@ function findCourse(courseList){
             document.course.style.backgroundColor = "green";
         courseExist = true;
         break;
+    }
+if (courseExist === false){
+    
 }
  }
 }
